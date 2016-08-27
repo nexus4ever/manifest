@@ -24,6 +24,7 @@
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="n" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="n" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
@@ -305,7 +306,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
