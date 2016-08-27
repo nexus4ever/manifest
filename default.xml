@@ -28,6 +28,7 @@
 
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
