@@ -18,6 +18,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="pure" revision="n" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
