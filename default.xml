@@ -19,6 +19,7 @@
   </project>
   <project path="manifest" name="manifest" remote="pure" revision="n" />
   <project path="art" name="android_art" groups="pdk" remote="pure" revision="n" />
+  <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="n" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
