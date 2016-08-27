@@ -21,6 +21,7 @@
   <project path="art" name="android_art" groups="pdk" remote="pure" revision="n" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="n" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
   <!-- AOSP Repo's -->
@@ -482,7 +483,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
