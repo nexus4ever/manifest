@@ -26,6 +26,9 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
+  <!-- Proprietary Vendors -->
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n" />
+
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
