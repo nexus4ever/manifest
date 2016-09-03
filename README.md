@@ -1,16 +1,20 @@
-The PureNexus Project
+The neXus4ever Project
 =====================
 
 Getting Started
 ---------------
 
-To build PureNexus from source, you'll need to be familiar with
+To build neXus4ever from source, you'll need to be familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PureNexusProject/manifest.git -b n
+	repo init -u https://github.com/nexus4ever/manifest.git -b n-7.0
+
+Then to use the mako sources, use this command:
+
+	mkdir .repo/local_manifests && cp .repo/manifests/local_manifests/roomservice.xml .repo/local_manifests
 
 Then to sync source, use this command:
 
@@ -21,15 +25,16 @@ After syncing is done, use these commands to build:
     1.) . build/envsetup.sh
     2.) brunch xxxx yyyy
     
-    xxxx= device name aka shamu
+    xxxx= device name aka mako
     yyyy= build type (user,userdebug,eng)*
 
     *if no build type is specified "userdebug" is default
 
 Enjoy, Stick around for a while AOSP Building is Fun!!!
 
-[@BeansTown106](https://twitter.com/beanstown106) on Twitter
+[@spezi77](http://forum.xda-developers.com/member.php?u=5091819) on XDA
+[@Funny-Bunny](http://forum.xda-developers.com/member.php?u=5796730) on XDA
 
-[PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
 
-[PureNexusProject-Legacy](https://github.com/PureNexusProject-Legacy) Old Source and Reference code
+Big thanks to the [PureNexusProject] (https://github.com/PureNexusProject) Source and Reference code
+
