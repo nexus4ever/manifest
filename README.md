@@ -24,7 +24,7 @@ After syncing is done, use these commands to build:
     xxxx= device name aka shamu
     yyyy= build type (user,userdebug,eng)*
 
-    *if no build type is specified "userdebug" is default
+    *if no build type is specified "user" is default
 
 Enjoy, Stick around for a while AOSP Building is Fun!!!
 
