@@ -4,9 +4,6 @@
 	   fetch="https://github.com/nexus4ever" />
 
   <!-- Removed Kernel and device source -->
-  <remove-project name="device/huawei/angler" />
-  <remove-project name="device/huawei/angler-kernel" />
-  <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="proprietary_vendor_huawei" />
