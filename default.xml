@@ -33,6 +33,9 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
+  <!-- Kernel Source -->
+  <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="n" />
+
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n" />
@@ -63,7 +66,6 @@
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
