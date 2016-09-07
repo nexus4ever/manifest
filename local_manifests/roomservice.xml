@@ -21,6 +21,10 @@
   <!-- Removed Pure Repos -->
   <remove-project name="android_build" />
 
+  <!-- Removed Pure Repos -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/system/sepolicy" />
+
   <!-- Mako's Hardware, Vendor and Device Repos -->
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="n4e" revision="n-7.0" />
   <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.0" />
@@ -32,9 +36,11 @@
   <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.0" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.0" />
 
   <!-- Revival Kernel Nougat Release -->
-  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="n-7.0" />
+  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-stock" />
 
 </manifest>
 
