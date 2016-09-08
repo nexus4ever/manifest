@@ -4,16 +4,20 @@
 	   fetch="https://github.com/nexus4ever" />
 
   <!-- Removed Kernel and device source -->
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="proprietary_vendor_huawei" />
   <remove-project name="proprietary_vendor_moto" />
   <remove-project name="android_device_lge_bullhead" />
 
-  <!-- Removed AOSP hardware source -->
+  <!-- Removed AOSP Repos -->
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="android_vendor_nexus" />
 
   <!-- Removed Pure Repos -->
   <remove-project name="android_build" />
@@ -30,11 +34,13 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="n4e" revision="n-7.0" />
 
   <!-- NeXus4ever specific Repos -->
-  <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0" >
+  <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0-rebased" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.0" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="n4e" revision="n-7.0" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.0" />
 
   <!-- Revival Kernel Nougat Release -->
   <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-stock" />
