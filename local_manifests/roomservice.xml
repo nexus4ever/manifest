@@ -11,7 +11,6 @@
   <remove-project name="android_device_lge_bullhead" />
   <remove-project name="android_kernel_lge_bullhead" />
   <remove-project name="android_device_huawei_angler" />
-  <remove-project name="device/huawei/angler-kernel" />
 
   <!-- Removed AOSP Repos -->
   <remove-project name="platform/frameworks/native" />
