@@ -10,7 +10,7 @@
            fetch="https://github.com/PureNexusProject/" /> 
   <remote name="pureprivate"
            fetch="ssh://git@bitbucket.org/purenexusproject/" /> 
-  <default revision="refs/tags/android-7.0.0_r4"
+  <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
