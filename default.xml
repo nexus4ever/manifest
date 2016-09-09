@@ -10,7 +10,7 @@
            fetch="https://github.com/PureNexusProject/" /> 
   <remote name="pureprivate"
            fetch="ssh://git@bitbucket.org/purenexusproject/" /> 
-  <default revision="refs/tags/android-7.0.0_r4"
+  <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -37,6 +37,7 @@
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="n" />
 
   <!-- Kernel Source -->
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="n" />
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="n" />
 
   <!-- Proprietary Vendors -->
@@ -68,7 +69,6 @@
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
