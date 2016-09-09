@@ -35,7 +35,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="n4e" revision="n-7.0" />
 
   <!-- NeXus4ever specific Repos -->
-  <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0-rebased" >
+  <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.0" />
