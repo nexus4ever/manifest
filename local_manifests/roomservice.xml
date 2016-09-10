@@ -14,18 +14,16 @@
   <remove-project name="android_kernel_huawei_angler" />
 
   <!-- Removed AOSP Repos -->
-  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="android_vendor_nexus" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!-- Removed Pure Repos -->
   <remove-project name="android_build" />
-
-  <!-- Removed Pure Repos -->
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="android_vendor_nexus" />
+  <remove-project name="android_packages_apps_Settings" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="n4e" revision="n-7.0" />
@@ -40,8 +38,8 @@
   </project>
   <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.0" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.0" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="n4e" revision="n-7.0" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="n4e" revision="n-7.0" />
 
   <!-- Revival Kernel Nougat Release -->
   <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-stock" />
