@@ -27,9 +27,10 @@
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_system_core" />
   <remove-project name="android_frameworks_base" />
+  <remove-project name="proprietary_vendor_lge" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
-  <project path="vendor/lge/mako" name="vendor_lge_mako" remote="n4e" revision="n-7.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.0" />
   <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="n4e" revision="n-7.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="n4e" revision="n-7.0" />
