@@ -17,6 +17,7 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/frameworks/av" />
@@ -25,6 +26,7 @@
   <remove-project name="android_build" />
   <remove-project name="android_vendor_nexus" />
   <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_packages_apps_PureSettings" />
   <remove-project name="android_system_core" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="proprietary_vendor_lge" />
@@ -35,6 +37,7 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="n4e" revision="n-7.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="n4e" revision="n-7.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="n4e" revision="n-7.0" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="n4e" revision="n-7.0" />
 
   <!-- NeXus4ever specific Repos -->
   <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0" >
@@ -44,6 +47,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.0" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="n4e" revision="n-7.0" />
+  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="n4e" revision="n-7.0" />
   <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.0" />
   <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.0" />
@@ -52,7 +56,7 @@
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="n4e" revision="n-7.0" />
 
   <!-- Revival Kernel Nougat Release -->
-  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-stock" />
+  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-dev" />
 
 </manifest>
 
