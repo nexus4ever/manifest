@@ -7,7 +7,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <remote name="pure"
-           fetch="ssh://git@github.com/PureNexusProject/" /> 
+           fetch="https://github.com/PureNexusProject/" /> 
   <remote name="gitlab"
            fetch="ssh://git@gitlab.com/PureNexus/" /> 
   <default revision="refs/tags/android-7.0.0_r14"
