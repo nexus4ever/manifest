@@ -20,12 +20,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="pure" revision="n" />
-  <project path="art" name="android_art" groups="pdk" remote="pure" revision="n" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="n" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="n" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="pure" revision="n" />
-  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="n" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" remote="pure" revision="n" />
@@ -44,7 +41,6 @@
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="n" />
 
   <!-- Proprietary Vendors -->
-  <project path="vendor/google" name="proprietary_vendor_google" remote="pure" revision="n" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="n" />
@@ -57,6 +53,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -100,6 +97,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -276,6 +274,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
