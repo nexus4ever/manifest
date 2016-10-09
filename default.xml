@@ -7,9 +7,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <remote name="pure"
-           fetch="https://github.com/PureAndroidProject/" /> 
+           fetch="https://github.com/PureNexusProject/" /> 
   <remote name="pureprivate"
-           fetch="ssh://git@bitbucket.org/pureandroidproject/" /> 
+           fetch="ssh://git@bitbucket.org/purenexusproject/" /> 
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-c="true"
