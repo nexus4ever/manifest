@@ -56,7 +56,7 @@
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="n4e" revision="n-7.0" />
 
   <!-- Revival Kernel Nougat Release -->
-  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-dev" />
+  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-basic" />
 
 </manifest>
 
