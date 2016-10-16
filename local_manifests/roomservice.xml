@@ -52,6 +52,10 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.0" />
 
+  <!-- LockClock specific Repos -->
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="n4e" revision="n-7.0" />
+  <project path="external/google" name="android_external_google" remote="n4e" revision="n-7.0" />
+
   <!-- Snap camera app for devices with Snapdragon CPU -->
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="n4e" revision="n-7.0" />
 
