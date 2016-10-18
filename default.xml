@@ -19,6 +19,7 @@
   <project path="build" name="android_build" groups="pdk" remote="pure" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n" />
   <project path="manifest" name="manifest" remote="pure" revision="n" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="n" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="n" />
@@ -59,7 +60,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
