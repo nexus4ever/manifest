@@ -48,7 +48,7 @@
   </project>
   <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.0" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.0" />
-  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.0" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.0.0_r14" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="n4e" revision="n-7.0.0_r14" />
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="n4e" revision="n-7.0" />
   <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.0.0_r14" />
