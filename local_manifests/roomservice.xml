@@ -23,6 +23,8 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/packages/apps/Gallery2" />
 
   <!-- Removed Pure Repos -->
   <remove-project name="android_build" />
@@ -33,6 +35,7 @@
   <remove-project name="android_frameworks_base" />
   <remove-project name="proprietary_vendor_lge" />
   <remove-project name="android_packages_services_Telephony" />
+  <remove-project name="android_packages_inputmethods_LatinIME" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.0" />
@@ -56,6 +59,9 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.0.0_r14" />
   <project path="system/media" name="android_system_media" remote="n4e" revision="n-7.0" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="n4e" revision="n-7.0.0_r14" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="n4e" revision="n-7.0.0_r14" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="n4e" revision="n-7.0.0_r14" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n4e" revision="n-7.0.0_r14" />
 
   <!-- LockClock specific Repos -->
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="n4e" revision="n-7.0" />
