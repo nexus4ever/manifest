@@ -3,75 +3,51 @@
   <remote name="n4e"
 	   fetch="https://github.com/nexus4ever" />
 
-  <!-- Removed Kernel and device source -->
-  <remove-project name="device/moto/shamu" />
-  <remove-project name="device/moto/shamu-kernel" />
-  <remove-project name="proprietary_vendor_huawei" />
-  <remove-project name="proprietary_vendor_moto" />
-  <remove-project name="android_device_lge_bullhead" />
-  <remove-project name="android_kernel_lge_bullhead" />
-  <remove-project name="android_device_huawei_angler" />
-  <remove-project name="android_kernel_huawei_angler" />
-
-  <!-- Removed AOSP Repos -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/packages/apps/Gallery2" />
-
-  <!-- Removed Pure Repos -->
+  <!-- Removed NOS Repos -->
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_gps" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_hardware_qcom_keymaster" />
   <remove-project name="android_build" />
-  <remove-project name="android_vendor_nexus" />
-  <remove-project name="android_packages_apps_Settings" />
-  <remove-project name="android_packages_apps_PureNexusSettings" />
   <remove-project name="android_system_core" />
+  <remove-project name="android_system_sepolicy" />
+  <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_base" />
-  <remove-project name="proprietary_vendor_lge" />
-  <remove-project name="android_packages_services_Telephony" />
-  <remove-project name="android_packages_inputmethods_LatinIME" />
+  <remove-project name="android_bionic" />               
+  <remove-project name="android_packages_apps_DUI" />
+  <remove-project name="android_external_DUtils" />
+  <remove-project name="TeamSubstratum/masquerade" />
+  <remove-project name="android_packages_apps_LockClock" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.0" />
-  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.0" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="n4e" revision="n-7.0" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="n4e" revision="n-7.0" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="n4e" revision="n-7.0" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="n4e" revision="n-7.0" />
+  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.1" />
+
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="n4e" revision="n-7.1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="n4e" revision="n-7.1" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="n4e" revision="n-7.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="n4e" revision="n-7.1" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="n4e" revision="n-7.1" />
 
   <!-- NeXus4ever specific Repos -->
-  <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.0.0_r14" >
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.1" />
+  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="n4e" revision="n-7.1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="n4e" revision="n-7.1" />
+  <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.0" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.0" />
-  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="system/media" name="android_system_media" remote="n4e" revision="n-7.0" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="n4e" revision="n-7.0.0_r14" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n4e" revision="n-7.0.0_r14" />
-
-  <!-- LockClock specific Repos -->
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="n4e" revision="n-7.0" />
-<project path="external/google" name="android_external_google" remote="n4e" revision="n-7.0" />
-
-  <!-- Snap camera app for devices with Snapdragon CPU -->
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="n4e" revision="n-7.0" />
+  <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.1" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.1" />
+  <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.1" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="n4e" revision="n-7.1" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="n4e" revision="n-7.1" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="n4e" revision="n-7.1" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="n4e" revision="n-7.1" />
 
   <!-- Revival Kernel Nougat Release -->
   <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-basic" />
 
 </manifest>
-
