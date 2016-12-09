@@ -1,4 +1,4 @@
-The neXus4ever Project
+The NeXus4ever Project
 =====================
 
 Getting Started
@@ -10,7 +10,7 @@ To build neXus4ever from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/nexus4ever/manifest.git -b n-7.0
+	repo init -u https://github.com/nexus4ever/manifest.git -b n-7.1
 
 Then to use the mako sources, use this command:
 
@@ -34,7 +34,8 @@ Enjoy, Stick around for a while AOSP Building is Fun!!!
 
 [@spezi77](http://forum.xda-developers.com/member.php?u=5091819) on XDA
 [@Funny-Bunny](http://forum.xda-developers.com/member.php?u=5796730) on XDA
+[@nitin1438](http://forum.xda-developers.com/member.php?u=5044214) on XDA
 
 
-Big thanks to the [PureNexusProject] (https://github.com/PureNexusProject) Source and Reference code
+Big thanks to the [PureNexusProject] (https://github.com/PureNexusProject) Source, [nitrogen-project] (https://github.com/nitrogen-project) Source and Reference code
 
