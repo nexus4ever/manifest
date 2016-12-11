@@ -17,7 +17,6 @@
   <remove-project name="android_bionic" />               
   <remove-project name="android_packages_apps_DUI" />
   <remove-project name="android_external_DUtils" />
-  <remove-project name="TeamSubstratum/masquerade" />
   <remove-project name="android_packages_apps_LockClock" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
