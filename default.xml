@@ -448,6 +448,7 @@
     <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
     <project path="system/media" name="platform/system/media" groups="pdk" />
     <project path="system/nativepower" name="platform/system/nativepower" />
+    <project path="system/netd" name="platform/system/netd" groups="pdk" />
     <project path="system/nvram" name="platform/system/nvram" />
     <project path="system/security" name="platform/system/security" groups="pdk" />
     <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
@@ -492,7 +493,6 @@
     <project path="system/bt" name="android_system_bt" remote="nos" revision="n2" />
     <project path="system/core" name="android_system_core" remote="nos" revision="n2" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="n2" />
-    <project path="system/netd" name="android_system_netd" remote="nos" revision="n2" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n2" />
     <project path="external/skia" name="android_external_skia" remote="nos" revision="n2" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="n2" />
