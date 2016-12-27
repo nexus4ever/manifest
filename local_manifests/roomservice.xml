@@ -3,6 +3,9 @@
   <remote name="n4e"
 	   fetch="https://github.com/nexus4ever" />
 
+  <remote name="pure"
+	   fetch="https://github.com/PureNexusProject" />
+
   <!-- Removed NOS Repos -->
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_display" />
@@ -18,10 +21,13 @@
   <remove-project name="android_packages_apps_DUI" />
   <remove-project name="android_external_DUtils" />
   <remove-project name="android_packages_apps_LockClock" />
+  <remove-project name="android_build_kati" />
+
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="android-7.1" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.0" />
-  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.1" />
+  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.1-vid" />
 
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="n4e" revision="n-7.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="n4e" revision="n-7.1" />
@@ -36,13 +42,11 @@
   <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.1" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.1" />
+  <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.1-vid" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.1-vid" />
   <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.1" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.1.1_r6" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.1" />
-  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="n4e" revision="n-7.1" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="n4e" revision="n-7.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.1-vid" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.1-vid" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="n4e" revision="n-7.1" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="n4e" revision="n-7.1" />
 
