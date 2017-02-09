@@ -9,6 +9,9 @@
   <remote name="br"
            fetch="https://github.com/BenzoRoms" />
 
+  <remote name="bb"
+           fetch="https://bitbucket.org" />
+
   <!-- Removed NOS Repos -->
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -27,11 +30,12 @@
   <remove-project name="android_external_DUtils" />
   <remove-project name="android_packages_apps_LockClock" />
   <remove-project name="android_build_kati" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="android-7.1" />
 
   <!-- Mako's Hardware, Vendor and Device Repos -->
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="n4e" revision="n-7.1.1" />
   <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="n4e" revision="n-7.1.1" />
 
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="n4e" revision="n-7.1.1" />
@@ -42,15 +46,15 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="n4e" revision="n-7.1" />
 
   <!-- NeXus4ever specific Repos -->
-  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.1" />
-  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="n4e" revision="n-7.1" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="n4e" revision="n-7.1.1" />
+  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="n4e" revision="n-7.1.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="n4e" revision="n-7.1" />
   <project path="build" name="android_build" groups="pdk" remote="n4e" revision="n-7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="n4e" revision="n-7.1.1" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="n4e" revision="n-7.1.1" />
-  <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.1" />
+  <project path="system/core" name="android_system_core" remote="n4e" revision="n-7.1.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="n4e" revision="n-7.1.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="n4e" revision="n-7.1.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="n4e" revision="n-7.1" />
@@ -60,5 +64,10 @@
 
   <!-- Revival Kernel Nougat Release -->
   <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="n4e" revision="nougat-basic" />
+
+  <!-- UBER & Dragon Toolchains -->
+  <project path="prebuilts/clang/host/linux-x86/4.0" name="xanaxdroid/dragontc-4.0" groups="pdk,linux" revision="dragon-tc" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 
 </manifest>
